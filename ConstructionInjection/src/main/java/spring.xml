@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd"> 
+    <!-- creat an object -->
+    <bean id="empob" class="com.edu.Employee"><!--  Employee eob=new Employee(1,"sri") -->
+      <constructor-arg value="1" type="int"></constructor-arg> 
+      <constructor-arg value="sri" type="String"></constructor-arg>
+      <constructor-arg value="30000" type="double"></constructor-arg>
+      
+    </bean>
+    
+   <bean id="empob1" class="com.edu.Employee">
+   <constructor-arg value="2" type="int"></constructor-arg>
+   <constructor-arg value="ram" type="String"></constructor-arg>
+    <constructor-arg value="40000" type="double"></constructor-arg>
+   </bean>
+   
+   <bean id="empob2" class="com.edu.Employee">
+   <constructor-arg value="3" type="int"></constructor-arg>
+   <constructor-arg value="raghul " type="String"></constructor-arg>
+    <constructor-arg value="50000" type="double"></constructor-arg>
+   </bean>
+    </beans>
+
